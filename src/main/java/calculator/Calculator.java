@@ -16,6 +16,7 @@ public class Calculator {
 
         double result1 = calc(a, op1, b);
         double result2 = calc(Double.toString(result1), op2, c);
+
         return Double.toString(result2);
     }
 
